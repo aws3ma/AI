@@ -141,7 +141,7 @@ class Path(object):
 
 problem1 = Search_problem_from_explicit_graph(
     {'a','b','c','d','g'},
-    [Arc('a','c',1), Arc('a','b',3), Arc('c','g',1), Arc('b','d',2), Arc('d','g',2)],
+    [Arc('a','c',1), Arc('a','b',3), Arc('c','g',7), Arc('b','d',2), Arc('d','g',2)],
     start = 'a',
     goals = {'g'},
     positions={'a': (0, 0), 'b': (1, -1), 'c': (1,0), 'd': (2,-1), 'g': (2,0)})
